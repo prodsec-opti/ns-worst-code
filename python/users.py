@@ -11,13 +11,13 @@ def get_user_info(user_id):
     conn.close()
     return user_info
 
-# def run_command(command):
+def run_command(command):
     
-#     os.system(f"ping {command}")  
+    os.system(f"ping {command}")  
     
-# if __name__ == "__main__":
-#     user_input = input("Enter the user ID: ")
-#     print(get_user_info(user_input))
+if __name__ == "__main__":
+    user_input = input("Enter the user ID: ")
+    print(get_user_info(user_input))
 
-#     command_input = input("Enter the IP Address to ping: ")
-#     run_command(command_input)
+    command_input = input("Enter the IP Address to ping: ")
+    run_command(command_input)
